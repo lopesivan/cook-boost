@@ -1,5 +1,5 @@
 
-%w(build-essential libboost1.48-all-dev boost-build).each do |pkg|
+%w(build-essential libboost1.48-all-dev).each do |pkg|
   package pkg do
     action :install
   end
